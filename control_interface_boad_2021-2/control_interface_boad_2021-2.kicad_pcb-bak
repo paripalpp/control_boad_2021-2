@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 38)
+    (drawings 34)
     (tracks 339)
     (zones 0)
     (modules 35)
@@ -2106,18 +2106,6 @@
     )
   )
 
-  (gr_text "designed by paripal" (at 99.695 112.395 90) (layer F.SilkS) (tstamp 6182526F)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "CBIF-2021-2 2/2" (at 97.155 112.395 90) (layer F.SilkS) (tstamp 6182526E)
-    (effects (font (size 1.5 1.5) (thickness 0.2)))
-  )
-  (gr_text "designed by paripal" (at 133.985 98.425 90) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (gr_text "CBIF-2021-2 1/2" (at 131.445 98.425 90) (layer F.SilkS)
-    (effects (font (size 1.5 1.5) (thickness 0.2)))
-  )
   (gr_text "NeoPixel\nIO26" (at 95.25 94.615) (layer F.SilkS)
     (effects (font (size 1 1) (thickness 0.15)))
   )

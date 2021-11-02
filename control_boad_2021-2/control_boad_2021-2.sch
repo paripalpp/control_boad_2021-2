@@ -343,4 +343,391 @@ F 3 "" H 5900 5700 50  0001 C CNN
 $EndComp
 Text GLabel 6000 2800 0    50   Input ~ 0
 digital8_io33
+$Comp
+L Mechanical:MountingHole H1
+U 1 1 61820008
+P 3000 500
+F 0 "H1" H 3100 546 50  0000 L CNN
+F 1 "MountingHole" H 3100 455 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3000 500 50  0001 C CNN
+F 3 "~" H 3000 500 50  0001 C CNN
+	1    3000 500 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H2
+U 1 1 6182144C
+P 3000 750
+F 0 "H2" H 3100 796 50  0000 L CNN
+F 1 "MountingHole" H 3100 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3000 750 50  0001 C CNN
+F 3 "~" H 3000 750 50  0001 C CNN
+	1    3000 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H3
+U 1 1 618218A2
+P 3000 1000
+F 0 "H3" H 3100 1046 50  0000 L CNN
+F 1 "MountingHole" H 3100 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3000 1000 50  0001 C CNN
+F 3 "~" H 3000 1000 50  0001 C CNN
+	1    3000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H4
+U 1 1 61823BC7
+P 3000 1250
+F 0 "H4" H 3100 1296 50  0000 L CNN
+F 1 "MountingHole" H 3100 1205 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 3000 1250 50  0001 C CNN
+F 3 "~" H 3000 1250 50  0001 C CNN
+	1    3000 1250
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H5
+U 1 1 61825B2F
+P 7350 2500
+F 0 "H5" V 7304 2650 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7395 2650 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7350 2500 50  0001 C CNN
+F 3 "~" H 7350 2500 50  0001 C CNN
+	1    7350 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H6
+U 1 1 618269FB
+P 7350 2750
+F 0 "H6" V 7304 2900 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7395 2900 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7350 2750 50  0001 C CNN
+F 3 "~" H 7350 2750 50  0001 C CNN
+	1    7350 2750
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H7
+U 1 1 61826C8C
+P 7350 3000
+F 0 "H7" V 7304 3150 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7395 3150 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7350 3000 50  0001 C CNN
+F 3 "~" H 7350 3000 50  0001 C CNN
+	1    7350 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H8
+U 1 1 618271EA
+P 7350 3250
+F 0 "H8" V 7304 3400 50  0000 L CNN
+F 1 "MountingHole_Pad" V 7395 3400 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 7350 3250 50  0001 C CNN
+F 3 "~" H 7350 3250 50  0001 C CNN
+	1    7350 3250
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7250 2500 7150 2500
+Wire Wire Line
+	7150 2500 7150 2750
+Wire Wire Line
+	7250 3250 7150 3250
+Connection ~ 7150 3250
+Wire Wire Line
+	7150 3250 7150 3350
+Wire Wire Line
+	7150 3000 7250 3000
+Connection ~ 7150 3000
+Wire Wire Line
+	7150 3000 7150 3250
+Wire Wire Line
+	7250 2750 7150 2750
+Connection ~ 7150 2750
+Wire Wire Line
+	7150 2750 7150 3000
+$Comp
+L power:GND #PWR013
+U 1 1 61828E07
+P 7150 3350
+F 0 "#PWR013" H 7150 3100 50  0001 C CNN
+F 1 "GND" H 7155 3177 50  0000 C CNN
+F 2 "" H 7150 3350 50  0001 C CNN
+F 3 "" H 7150 3350 50  0001 C CNN
+	1    7150 3350
+	1    0    0    -1  
+$EndComp
+Text GLabel 5200 5400 1    50   Input ~ 0
+im920s_xmit
+Text GLabel 4800 5400 1    50   Input ~ 0
+im920_status
+$Comp
+L Device:LED D1
+U 1 1 6182CE06
+P 4800 5550
+F 0 "D1" V 4839 5432 50  0000 R CNN
+F 1 "LED" V 4748 5432 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 4800 5550 50  0001 C CNN
+F 3 "~" H 4800 5550 50  0001 C CNN
+	1    4800 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:LED D2
+U 1 1 6182E253
+P 5200 5550
+F 0 "D2" V 5239 5432 50  0000 R CNN
+F 1 "LED" V 5148 5432 50  0000 R CNN
+F 2 "LED_SMD:LED_0603_1608Metric" H 5200 5550 50  0001 C CNN
+F 3 "~" H 5200 5550 50  0001 C CNN
+	1    5200 5550
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R R1
+U 1 1 6182F177
+P 4800 5850
+F 0 "R1" H 4870 5896 50  0000 L CNN
+F 1 "R" H 4870 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4730 5850 50  0001 C CNN
+F 3 "~" H 4800 5850 50  0001 C CNN
+	1    4800 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R2
+U 1 1 6182FD6C
+P 5200 5850
+F 0 "R2" H 5270 5896 50  0000 L CNN
+F 1 "R" H 5270 5805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5130 5850 50  0001 C CNN
+F 3 "~" H 5200 5850 50  0001 C CNN
+	1    5200 5850
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR014
+U 1 1 61830455
+P 4800 6000
+F 0 "#PWR014" H 4800 5750 50  0001 C CNN
+F 1 "GND" H 4805 5827 50  0000 C CNN
+F 2 "" H 4800 6000 50  0001 C CNN
+F 3 "" H 4800 6000 50  0001 C CNN
+	1    4800 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR015
+U 1 1 61830A0A
+P 5200 6000
+F 0 "#PWR015" H 5200 5750 50  0001 C CNN
+F 1 "GND" H 5205 5827 50  0000 C CNN
+F 2 "" H 5200 6000 50  0001 C CNN
+F 3 "" H 5200 6000 50  0001 C CNN
+	1    5200 6000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector_Generic:Conn_01x02 J4
+U 1 1 6183FA83
+P 6200 6250
+F 0 "J4" H 6280 6242 50  0000 L CNN
+F 1 "Conn_01x02" H 6280 6151 50  0000 L CNN
+F 2 "Connector_USB_additional:USB micro B 2pin" H 6200 6250 50  0001 C CNN
+F 3 "~" H 6200 6250 50  0001 C CNN
+	1    6200 6250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6250 5900 6250
+Wire Wire Line
+	5900 6250 5900 6150
+Wire Wire Line
+	6000 6350 5900 6350
+Wire Wire Line
+	5900 6350 5900 6450
+$Comp
+L power:+5V #PWR016
+U 1 1 6183FA8D
+P 5900 6150
+F 0 "#PWR016" H 5900 6000 50  0001 C CNN
+F 1 "+5V" H 5915 6323 50  0000 C CNN
+F 2 "" H 5900 6150 50  0001 C CNN
+F 3 "" H 5900 6150 50  0001 C CNN
+	1    5900 6150
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR017
+U 1 1 6183FA93
+P 5900 6450
+F 0 "#PWR017" H 5900 6200 50  0001 C CNN
+F 1 "GND" H 5905 6277 50  0000 C CNN
+F 2 "" H 5900 6450 50  0001 C CNN
+F 3 "" H 5900 6450 50  0001 C CNN
+	1    5900 6450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Female J5
+U 1 1 6181B9D3
+P 9700 1000
+F 0 "J5" H 9728 1026 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 9728 935 50  0000 L CNN
+F 2 "Connector_JST:JST_XA_B03B-XASK-1_1x03_P2.50mm_Vertical" H 9700 1000 50  0001 C CNN
+F 3 "~" H 9700 1000 50  0001 C CNN
+	1    9700 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR024
+U 1 1 6181D0BB
+P 9500 900
+F 0 "#PWR024" H 9500 750 50  0001 C CNN
+F 1 "+5VA" V 9515 1027 50  0000 L CNN
+F 2 "" H 9500 900 50  0001 C CNN
+F 3 "" H 9500 900 50  0001 C CNN
+	1    9500 900 
+	0    -1   -1   0   
+$EndComp
+Text GLabel 9500 1000 0    50   Input ~ 0
+datain
+$Comp
+L power:GNDA #PWR025
+U 1 1 6181E4BC
+P 9500 1100
+F 0 "#PWR025" H 9500 850 50  0001 C CNN
+F 1 "GNDA" V 9505 973 50  0000 R CNN
+F 2 "" H 9500 1100 50  0001 C CNN
+F 3 "" H 9500 1100 50  0001 C CNN
+	1    9500 1100
+	0    1    1    0   
+$EndComp
+$Comp
+L Mechanical:MountingHole H9
+U 1 1 618222AA
+P 10500 750
+F 0 "H9" H 10600 796 50  0000 L CNN
+F 1 "MountingHole" H 10600 705 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10500 750 50  0001 C CNN
+F 3 "~" H 10500 750 50  0001 C CNN
+	1    10500 750 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole H10
+U 1 1 61823264
+P 10500 1000
+F 0 "H10" H 10600 1046 50  0000 L CNN
+F 1 "MountingHole" H 10600 955 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad" H 10500 1000 50  0001 C CNN
+F 3 "~" H 10500 1000 50  0001 C CNN
+	1    10500 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D3
+U 1 1 61824BC1
+P 7000 1000
+F 0 "D3" H 7344 1046 50  0000 L CNN
+F 1 "WS2812B" H 7344 955 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7050 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7100 625 50  0001 L TNN
+	1    7000 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D5
+U 1 1 6182874D
+P 8200 1000
+F 0 "D5" H 8544 1046 50  0000 L CNN
+F 1 "WS2812B" H 8544 955 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 8250 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 8300 625 50  0001 L TNN
+	1    8200 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR019
+U 1 1 618295E8
+P 7000 1300
+F 0 "#PWR019" H 7000 1050 50  0001 C CNN
+F 1 "GNDA" V 7005 1173 50  0000 R CNN
+F 2 "" H 7000 1300 50  0001 C CNN
+F 3 "" H 7000 1300 50  0001 C CNN
+	1    7000 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR021
+U 1 1 61829E44
+P 7600 1300
+F 0 "#PWR021" H 7600 1050 50  0001 C CNN
+F 1 "GNDA" V 7605 1173 50  0000 R CNN
+F 2 "" H 7600 1300 50  0001 C CNN
+F 3 "" H 7600 1300 50  0001 C CNN
+	1    7600 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDA #PWR023
+U 1 1 6182A5FF
+P 8200 1300
+F 0 "#PWR023" H 8200 1050 50  0001 C CNN
+F 1 "GNDA" V 8205 1173 50  0000 R CNN
+F 2 "" H 8200 1300 50  0001 C CNN
+F 3 "" H 8200 1300 50  0001 C CNN
+	1    8200 1300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR018
+U 1 1 6182B7DB
+P 7000 700
+F 0 "#PWR018" H 7000 550 50  0001 C CNN
+F 1 "+5VA" V 7015 827 50  0000 L CNN
+F 2 "" H 7000 700 50  0001 C CNN
+F 3 "" H 7000 700 50  0001 C CNN
+	1    7000 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L LED:WS2812B D4
+U 1 1 61827BAE
+P 7600 1000
+F 0 "D4" H 7944 1046 50  0000 L CNN
+F 1 "WS2812B" H 7944 955 50  0000 L CNN
+F 2 "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm" H 7650 700 50  0001 L TNN
+F 3 "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf" H 7700 625 50  0001 L TNN
+	1    7600 1000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR020
+U 1 1 6182E238
+P 7600 700
+F 0 "#PWR020" H 7600 550 50  0001 C CNN
+F 1 "+5VA" V 7615 827 50  0000 L CNN
+F 2 "" H 7600 700 50  0001 C CNN
+F 3 "" H 7600 700 50  0001 C CNN
+	1    7600 700 
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+5VA #PWR022
+U 1 1 6182E845
+P 8200 700
+F 0 "#PWR022" H 8200 550 50  0001 C CNN
+F 1 "+5VA" V 8215 827 50  0000 L CNN
+F 2 "" H 8200 700 50  0001 C CNN
+F 3 "" H 8200 700 50  0001 C CNN
+	1    8200 700 
+	1    0    0    -1  
+$EndComp
+Text GLabel 6700 1000 0    50   Input ~ 0
+datain
 $EndSCHEMATC
