@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "control_interface_boad_2021-2-rescue")(type "KiCad")(uri "${KIPRJMOD}/control_interface_boad_2021-2-rescue.kicad_sym")(options "")(descr ""))
+)
